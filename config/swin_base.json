@@ -1,0 +1,17 @@
+{
+    "SEED": 777,
+    "SIZE": 384,
+    "CSV": "./train_kfold.csv",
+    "FOLD": 0,
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 0.00001,
+    "EPOCHS": 100,
+    "N_WORKERS": 8,
+    "N_CLASSES": 88,
+    "MODEL": "swin_base_patch4_window12_384_in22k",
+    "MODEL_SAVE": "./swin_base",
+    "MODEL_SAVE_PREFIX": "swin_large_777",
+    "RESUME": "",
+    "WANDB_NAME" : "swin_base_patch4_window12_384_in22k",
+    "WANDB_PROJECT": "Anomaly_Detection"
+}
