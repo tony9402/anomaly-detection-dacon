@@ -11,7 +11,7 @@
     "N_CLASSES": 88,
     "MODEL": "tf_efficientnet_b7_ns",
     "PRETRAINED": true,
-    "MODEL_SAVE": "./b8_ns_model",
+    "MODEL_SAVE": "./model/b8_ns_model",
     "MODEL_SAVE_PREFIX": "b7_777",
     "RESUME": false,
     "WANDB_NAME" : "tf_efficientnet_b7_ns",

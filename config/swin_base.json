@@ -11,7 +11,7 @@
     "N_CLASSES": 88,
     "MODEL": "swin_base_patch4_window12_384_in22k",
     "PRETRAINED": true,
-    "MODEL_SAVE": "./swin_base",
+    "MODEL_SAVE": "./model/swin_base",
     "MODEL_SAVE_PREFIX": "swin_base_777",
     "RESUME": "",
     "WANDB_NAME" : "swin_base_patch4_window12_384_in22k",
