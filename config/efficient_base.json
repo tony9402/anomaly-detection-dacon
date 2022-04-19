@@ -1,7 +1,8 @@
 {
     "SEED": 777,
     "SIZE": 600,
-    "CSV": "./train_kfold.csv",
+    "TRAIN_CSV": "./train_kfold.csv",
+    "TEST_CSV": "./test_data.csv",
     "FOLD": 0,
     "BATCH_SIZE": 8,
     "LEARNING_RATE": 0.00001,
@@ -9,9 +10,10 @@
     "N_WORKERS": 8,
     "N_CLASSES": 88,
     "MODEL": "tf_efficientnet_b7_ns",
+    "PRETRAINED": true,
     "MODEL_SAVE": "./b8_ns_model",
     "MODEL_SAVE_PREFIX": "b7_777",
-    "RESUME": "",
+    "RESUME": false,
     "WANDB_NAME" : "tf_efficientnet_b7_ns",
     "WANDB_PROJECT": "Anomaly_Detection"
 }

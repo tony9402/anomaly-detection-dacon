@@ -1,7 +1,8 @@
 {
     "SEED": 777,
     "SIZE": 384,
-    "CSV": "./train_kfold.csv",
+    "TRAIN_CSV": "./train_kfold.csv",
+    "TEST_CSV": "./test_data.csv",
     "FOLD": 0,
     "BATCH_SIZE": 32,
     "LEARNING_RATE": 0.00001,
@@ -9,9 +10,11 @@
     "N_WORKERS": 8,
     "N_CLASSES": 88,
     "MODEL": "swin_base_patch4_window12_384_in22k",
+    "PRETRAINED": true,
     "MODEL_SAVE": "./swin_base",
-    "MODEL_SAVE_PREFIX": "swin_large_777",
+    "MODEL_SAVE_PREFIX": "swin_base_777",
     "RESUME": "",
     "WANDB_NAME" : "swin_base_patch4_window12_384_in22k",
-    "WANDB_PROJECT": "Anomaly_Detection"
+    "WANDB_PROJECT": "Anomaly_Detection",
+    "SUBMISSION_CSV": "swin_submission.csv"
 }
