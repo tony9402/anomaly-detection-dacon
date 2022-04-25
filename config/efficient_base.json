@@ -16,5 +16,5 @@
     "RESUME": false,
     "WANDB_NAME" : "tf_efficientnet_b7_ns",
     "WANDB_PROJECT": "Anomaly_Detection",
-    "SUBMISSION_CSV": "swin_submission.csv"
+    "SUBMISSION_CSV": "eff_submission.csv"
 }
